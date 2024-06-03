@@ -1,0 +1,161 @@
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f2f5;
+    overflow: hidden;
+  }
+
+  .login-contain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    width: 40%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px 4px rgb(237, 237, 237);
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  .login-input {
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .login-button {
+    padding: 10px;
+    width: 100%;
+    max-width: 180px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .login-button:hover {
+    background-color: #45a049;
+  }
+  
+  p {
+    margin-top: 10px;
+  }
+  
+  a {
+    color: #4CAF50;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+
+  @media (max-width: 1080px){
+
+    .login-contain{
+        height: 50vh;
+        width: 50%;
+    }
+  }
+
+  @media (max-width: 900px){
+
+    .login-contain{
+        height: 40vh;
+        width: 60%;
+    }
+  }
+
+  @media (max-width: 700px){
+
+    .login-contain{
+        width: 65%;
+    }
+    .login-input{
+        max-width: 250px;
+    }
+  }
+
+  @media (max-width: 500px){
+
+    .login-contain{
+        width: 75%;
+    }
+    .login-input{
+        max-width: 250px;
+    }
+
+    .login-button{
+        max-width: 150px;
+    }
+  }
+
+  @media (max-width: 400px){
+
+    .login-contain{
+        width: 80%;
+    }
+    .login-input{
+        max-width: 220px;
+    }
+
+    .login-button{
+        max-width: 140px;
+    }
+  }
+
+
+  @media (max-width: 340px){
+
+    .login-contain{
+        width: 80%;
+    }
+    .login-input{
+        max-width: 200px;
+    }
+
+    .login-button{
+        max-width: 120px;
+    }
+  }
+
+  @media (max-width: 310px){
+
+    .login-contain{
+        width: 80%;
+    }
+    .login-input{
+        max-width: 180px;
+    }
+
+    .login-button{
+        max-width: 110px;
+    }
+  }
+
+  @media (max-width: 280px){
+
+    .login-contain{
+        width: 80%;
+    }
+    .login-input{
+        max-width: 160px;
+    }
+
+    .login-button{
+        max-width: 100px;
+    }
+  }
